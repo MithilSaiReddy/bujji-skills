@@ -1,0 +1,86 @@
+name: Build Skills Index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'skills/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate index.json
+        run: |
+          python3 - <<'EOF'
+          import json, os, pathlib, datetime
+
+          skills_dir = pathlib.Path("skills")
+          index = []
+
+          for skill_dir in sorted(skills_dir.iterdir()):
+              if not skill_dir.is_dir():
+                  continue
+
+              meta_file  = skill_dir / "meta.json"
+              skill_file = skill_dir / "SKILL.md"
+
+              if not meta_file.exists() or not skill_file.exists():
+                  print(f"  ⚠  Skipping {skill_dir.name} — missing meta.json or SKILL.md")
+                  continue
+
+              try:
+                  meta = json.loads(meta_file.read_text())
+              except json.JSONDecodeError as e:
+                  print(f"  ❌ {skill_dir.name}/meta.json parse error: {e}")
+                  continue
+
+              required = {"id", "title", "icon", "description", "tags", "author", "version"}
+              missing  = required - meta.keys()
+              if missing:
+                  print(f"  ❌ {skill_dir.name}/meta.json missing fields: {missing}")
+                  continue
+
+              # Validate id matches folder name
+              if meta["id"] != skill_dir.name:
+                  print(f"  ❌ {skill_dir.name}: meta.json id '{meta['id']}' must match folder name")
+                  continue
+
+              index.append({
+                  "id":          meta["id"],
+                  "title":       meta["title"],
+                  "icon":        meta["icon"],
+                  "description": meta["description"],
+                  "tags":        meta["tags"],
+                  "author":      meta["author"],
+                  "version":     meta["version"],
+                  "skill_url":   f"https://raw.githubusercontent.com/${{{{ github.repository }}}}/main/skills/{skill_dir.name}/SKILL.md",
+              })
+              print(f"  ✅ {skill_dir.name}")
+
+          out = {
+              "updated_at": datetime.datetime.utcnow().isoformat() + "Z",
+              "count":      len(index),
+              "skills":     index
+          }
+
+          pathlib.Path("index.json").write_text(
+              json.dumps(out, indent=2, ensure_ascii=False)
+          )
+          print(f"\n✅ index.json built — {len(index)} skills")
+          EOF
+
+      - name: Commit index.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.json
+          git diff --cached --quiet && echo "No changes to commit" || \
+            git commit -m "ci: rebuild index.json [$(date -u +%Y-%m-%dT%H:%M:%SZ)]"
+          git push

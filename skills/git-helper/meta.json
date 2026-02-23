@@ -1,0 +1,12 @@
+{
+  "id": "git-helper",
+  "title": "Git Helper",
+  "icon": "🌿",
+  "description": "Commit messages, branch strategy, merge conflicts, and git history cleanup.",
+  "tags": [
+    "dev",
+    "git"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

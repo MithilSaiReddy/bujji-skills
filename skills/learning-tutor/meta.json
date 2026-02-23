@@ -1,0 +1,12 @@
+{
+  "id": "learning-tutor",
+  "title": "Learning Tutor",
+  "icon": "🎓",
+  "description": "Socratic method, progressive examples, and comprehension checks.",
+  "tags": [
+    "education",
+    "productivity"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

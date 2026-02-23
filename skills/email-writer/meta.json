@@ -1,0 +1,12 @@
+{
+  "id": "email-writer",
+  "title": "Email Writer",
+  "icon": "📧",
+  "description": "Professional emails with a clear subject, concise body, and strong CTA.",
+  "tags": [
+    "writing",
+    "business"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

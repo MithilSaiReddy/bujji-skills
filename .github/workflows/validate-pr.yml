@@ -1,0 +1,79 @@
+name: Validate Skill PR
+
+on:
+  pull_request:
+    paths:
+      - 'skills/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate all skills
+        run: |
+          python3 - <<'EOF'
+          import json, os, pathlib, sys
+
+          skills_dir = pathlib.Path("skills")
+          errors = []
+
+          REQUIRED_META_FIELDS = {"id", "title", "icon", "description", "tags", "author", "version"}
+          REQUIRED_TAG_SCHEMA   = list  # tags must be a list
+
+          for skill_dir in sorted(skills_dir.iterdir()):
+              if not skill_dir.is_dir():
+                  continue
+
+              name = skill_dir.name
+
+              # Check for required files
+              if not (skill_dir / "SKILL.md").exists():
+                  errors.append(f"[{name}] Missing SKILL.md")
+                  continue
+              if not (skill_dir / "meta.json").exists():
+                  errors.append(f"[{name}] Missing meta.json")
+                  continue
+
+              # Parse meta.json
+              try:
+                  meta = json.loads((skill_dir / "meta.json").read_text())
+              except json.JSONDecodeError as e:
+                  errors.append(f"[{name}] meta.json is invalid JSON: {e}")
+                  continue
+
+              # Required fields
+              missing = REQUIRED_META_FIELDS - meta.keys()
+              if missing:
+                  errors.append(f"[{name}] meta.json missing fields: {', '.join(sorted(missing))}")
+
+              # id must match folder name
+              if meta.get("id") != name:
+                  errors.append(f"[{name}] meta.json 'id' must match folder name (got '{meta.get('id')}')")
+
+              # tags must be a list
+              if not isinstance(meta.get("tags"), list):
+                  errors.append(f"[{name}] meta.json 'tags' must be a JSON array")
+
+              # SKILL.md must not be empty
+              content = (skill_dir / "SKILL.md").read_text().strip()
+              if len(content) < 50:
+                  errors.append(f"[{name}] SKILL.md is too short (< 50 chars)")
+
+              # Folder name: lowercase, alphanumeric + hyphens only
+              import re
+              if not re.match(r'^[a-z0-9][a-z0-9\-]+$', name):
+                  errors.append(f"[{name}] Folder name must be lowercase alphanumeric with hyphens only")
+
+              if not errors:
+                  print(f"  ✅ {name}")
+
+          if errors:
+              print("\n❌ Validation failed:\n")
+              for e in errors:
+                  print(f"  • {e}")
+              sys.exit(1)
+          else:
+              print(f"\n✅ All skills valid")
+          EOF

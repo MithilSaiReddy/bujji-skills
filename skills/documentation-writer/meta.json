@@ -1,0 +1,12 @@
+{
+  "id": "documentation-writer",
+  "title": "Documentation Writer",
+  "icon": "📚",
+  "description": "READMEs, API docs, inline comments, and architecture decision records.",
+  "tags": [
+    "dev",
+    "writing"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

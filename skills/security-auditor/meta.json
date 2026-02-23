@@ -1,0 +1,12 @@
+{
+  "id": "security-auditor",
+  "title": "Security Auditor",
+  "icon": "🔒",
+  "description": "Find vulnerabilities, explain attack vectors, and suggest mitigations.",
+  "tags": [
+    "dev",
+    "security"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

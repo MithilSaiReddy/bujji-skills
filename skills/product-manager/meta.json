@@ -1,0 +1,12 @@
+{
+  "id": "product-manager",
+  "title": "Product Manager",
+  "icon": "🗺️",
+  "description": "PRDs, user stories, prioritisation frameworks, and roadmap planning.",
+  "tags": [
+    "business",
+    "productivity"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

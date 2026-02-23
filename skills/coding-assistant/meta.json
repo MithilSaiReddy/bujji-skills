@@ -1,0 +1,9 @@
+{
+  "id": "coding-assistant",
+  "title": "Coding Assistant",
+  "icon": "💻",
+  "description": "Explains code, suggests improvements, writes tests, and debugs step-by-step.",
+  "tags": ["dev", "code"],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

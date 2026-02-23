@@ -1,0 +1,12 @@
+{
+  "id": "code-reviewer",
+  "title": "Code Reviewer",
+  "icon": "🔍",
+  "description": "Security, performance, and readability review with prioritised, actionable fixes.",
+  "tags": [
+    "dev",
+    "security"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

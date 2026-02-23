@@ -1,0 +1,12 @@
+{
+  "id": "research-assistant",
+  "title": "Research Assistant",
+  "icon": "🔬",
+  "description": "Structured research with citations, counterarguments, and key takeaways.",
+  "tags": [
+    "research",
+    "writing"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

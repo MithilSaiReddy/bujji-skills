@@ -1,0 +1,11 @@
+{
+  "id": "writing-editor",
+  "title": "Writing Editor",
+  "icon": "✍️",
+  "description": "Improve clarity, tone, and grammar without changing the author's voice.",
+  "tags": [
+    "writing"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

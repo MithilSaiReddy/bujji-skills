@@ -1,0 +1,200 @@
+{
+  "updated_at": "2026-02-23T14:30:10.901141Z",
+  "count": 15,
+  "skills": [
+    {
+      "id": "brainstorm-coach",
+      "title": "Brainstorm Coach",
+      "icon": "💡",
+      "description": "Expand ideas, challenge assumptions, and generate unexpected alternatives.",
+      "tags": [
+        "creativity",
+        "productivity"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/brainstorm-coach/SKILL.md"
+    },
+    {
+      "id": "code-reviewer",
+      "title": "Code Reviewer",
+      "icon": "🔍",
+      "description": "Security, performance, and readability review with prioritised, actionable fixes.",
+      "tags": [
+        "dev",
+        "security"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/code-reviewer/SKILL.md"
+    },
+    {
+      "id": "coding-assistant",
+      "title": "Coding Assistant",
+      "icon": "💻",
+      "description": "Explains code, suggests improvements, writes tests, and debugs step-by-step.",
+      "tags": [
+        "dev",
+        "code"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/coding-assistant/SKILL.md"
+    },
+    {
+      "id": "data-analyst",
+      "title": "Data Analyst",
+      "icon": "📊",
+      "description": "Interpret data, spot patterns, suggest visualisations, and flag statistical pitfalls.",
+      "tags": [
+        "data",
+        "research"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/data-analyst/SKILL.md"
+    },
+    {
+      "id": "devops-helper",
+      "title": "DevOps Helper",
+      "icon": "⚙️",
+      "description": "Docker, CI/CD pipelines, infrastructure debugging, and shell scripting.",
+      "tags": [
+        "dev",
+        "infra"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/devops-helper/SKILL.md"
+    },
+    {
+      "id": "documentation-writer",
+      "title": "Documentation Writer",
+      "icon": "📚",
+      "description": "READMEs, API docs, inline comments, and architecture decision records.",
+      "tags": [
+        "dev",
+        "writing"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/documentation-writer/SKILL.md"
+    },
+    {
+      "id": "email-writer",
+      "title": "Email Writer",
+      "icon": "📧",
+      "description": "Professional emails with a clear subject, concise body, and strong CTA.",
+      "tags": [
+        "writing",
+        "business"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/email-writer/SKILL.md"
+    },
+    {
+      "id": "git-helper",
+      "title": "Git Helper",
+      "icon": "🌿",
+      "description": "Commit messages, branch strategy, merge conflicts, and git history cleanup.",
+      "tags": [
+        "dev",
+        "git"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/git-helper/SKILL.md"
+    },
+    {
+      "id": "learning-tutor",
+      "title": "Learning Tutor",
+      "icon": "🎓",
+      "description": "Socratic method, progressive examples, and comprehension checks.",
+      "tags": [
+        "education",
+        "productivity"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/learning-tutor/SKILL.md"
+    },
+    {
+      "id": "meeting-notes",
+      "title": "Meeting Notes",
+      "icon": "📝",
+      "description": "Transform messy notes into structured summaries with clear action items.",
+      "tags": [
+        "productivity",
+        "business"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/meeting-notes/SKILL.md"
+    },
+    {
+      "id": "product-manager",
+      "title": "Product Manager",
+      "icon": "🗺️",
+      "description": "PRDs, user stories, prioritisation frameworks, and roadmap planning.",
+      "tags": [
+        "business",
+        "productivity"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/product-manager/SKILL.md"
+    },
+    {
+      "id": "research-assistant",
+      "title": "Research Assistant",
+      "icon": "🔬",
+      "description": "Structured research with citations, counterarguments, and key takeaways.",
+      "tags": [
+        "research",
+        "writing"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/research-assistant/SKILL.md"
+    },
+    {
+      "id": "security-auditor",
+      "title": "Security Auditor",
+      "icon": "🔒",
+      "description": "Find vulnerabilities, explain attack vectors, and suggest mitigations.",
+      "tags": [
+        "dev",
+        "security"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/security-auditor/SKILL.md"
+    },
+    {
+      "id": "sql-expert",
+      "title": "SQL Expert",
+      "icon": "🗄️",
+      "description": "Query optimisation, schema design, indexing strategy, and explain plan analysis.",
+      "tags": [
+        "dev",
+        "data"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/sql-expert/SKILL.md"
+    },
+    {
+      "id": "writing-editor",
+      "title": "Writing Editor",
+      "icon": "✍️",
+      "description": "Improve clarity, tone, and grammar without changing the author's voice.",
+      "tags": [
+        "writing"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/writing-editor/SKILL.md"
+    }
+  ]
+}

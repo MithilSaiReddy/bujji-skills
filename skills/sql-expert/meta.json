@@ -1,0 +1,12 @@
+{
+  "id": "sql-expert",
+  "title": "SQL Expert",
+  "icon": "🗄️",
+  "description": "Query optimisation, schema design, indexing strategy, and explain plan analysis.",
+  "tags": [
+    "dev",
+    "data"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "devops-helper",
+  "title": "DevOps Helper",
+  "icon": "⚙️",
+  "description": "Docker, CI/CD pipelines, infrastructure debugging, and shell scripting.",
+  "tags": [
+    "dev",
+    "infra"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

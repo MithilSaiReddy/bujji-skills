@@ -1,0 +1,12 @@
+{
+  "id": "meeting-notes",
+  "title": "Meeting Notes",
+  "icon": "📝",
+  "description": "Transform messy notes into structured summaries with clear action items.",
+  "tags": [
+    "productivity",
+    "business"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

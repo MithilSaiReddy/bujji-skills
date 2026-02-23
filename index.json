@@ -13,7 +13,7 @@
       ],
       "author": "bujji-team",
       "version": "1.0.0",
-      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/brainstorm-coach/SKILL.md"
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/brainstorm-coach/SKILL.md"
     },
     {
       "id": "code-reviewer",
@@ -26,7 +26,7 @@
       ],
       "author": "bujji-team",
       "version": "1.0.0",
-      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/code-reviewer/SKILL.md"
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/code-reviewer/SKILL.md"
     },
     {
       "id": "coding-assistant",
@@ -39,7 +39,7 @@
       ],
       "author": "bujji-team",
       "version": "1.0.0",
-      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/coding-assistant/SKILL.md"
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/coding-assistant/SKILL.md"
     },
     {
       "id": "data-analyst",
@@ -52,7 +52,7 @@
       ],
       "author": "bujji-team",
       "version": "1.0.0",
-      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/data-analyst/SKILL.md"
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/data-analyst/SKILL.md"
     },
     {
       "id": "devops-helper",
@@ -65,7 +65,7 @@
       ],
       "author": "bujji-team",
       "version": "1.0.0",
-      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/devops-helper/SKILL.md"
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/devops-helper/SKILL.md"
     },
     {
       "id": "documentation-writer",
@@ -78,7 +78,7 @@
       ],
       "author": "bujji-team",
       "version": "1.0.0",
-      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/documentation-writer/SKILL.md"
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/documentation-writer/SKILL.md"
     },
     {
       "id": "email-writer",
@@ -91,7 +91,7 @@
       ],
       "author": "bujji-team",
       "version": "1.0.0",
-      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/email-writer/SKILL.md"
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/email-writer/SKILL.md"
     },
     {
       "id": "git-helper",
@@ -104,7 +104,7 @@
       ],
       "author": "bujji-team",
       "version": "1.0.0",
-      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/git-helper/SKILL.md"
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/git-helper/SKILL.md"
     },
     {
       "id": "learning-tutor",
@@ -117,7 +117,7 @@
       ],
       "author": "bujji-team",
       "version": "1.0.0",
-      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/learning-tutor/SKILL.md"
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/learning-tutor/SKILL.md"
     },
     {
       "id": "meeting-notes",
@@ -130,7 +130,7 @@
       ],
       "author": "bujji-team",
       "version": "1.0.0",
-      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/meeting-notes/SKILL.md"
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/meeting-notes/SKILL.md"
     },
     {
       "id": "product-manager",
@@ -143,7 +143,7 @@
       ],
       "author": "bujji-team",
       "version": "1.0.0",
-      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/product-manager/SKILL.md"
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/product-manager/SKILL.md"
     },
     {
       "id": "research-assistant",
@@ -156,7 +156,7 @@
       ],
       "author": "bujji-team",
       "version": "1.0.0",
-      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/research-assistant/SKILL.md"
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/research-assistant/SKILL.md"
     },
     {
       "id": "security-auditor",
@@ -169,7 +169,7 @@
       ],
       "author": "bujji-team",
       "version": "1.0.0",
-      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/security-auditor/SKILL.md"
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/security-auditor/SKILL.md"
     },
     {
       "id": "sql-expert",
@@ -182,7 +182,7 @@
       ],
       "author": "bujji-team",
       "version": "1.0.0",
-      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/sql-expert/SKILL.md"
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/sql-expert/SKILL.md"
     },
     {
       "id": "writing-editor",
@@ -194,7 +194,7 @@
       ],
       "author": "bujji-team",
       "version": "1.0.0",
-      "skill_url": "https://raw.githubusercontent.com/YOUR_USERNAME/bujji-skills/main/skills/writing-editor/SKILL.md"
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/writing-editor/SKILL.md"
     }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "id": "meal-planner",
+  "title": "Meal Planner",
+  "icon": "🍽️",
+  "description": "Weekly meal plans, shopping lists, and recipes based on preferences and budget.",
+  "tags": [
+    "food",
+    "lifestyle",
+    "health"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

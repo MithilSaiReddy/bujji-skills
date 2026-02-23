@@ -1,6 +1,6 @@
 # 🧩 Bujji Skills Marketplace
 
-Community-maintained skill library for [Bujji](https://github.com/MithilSaiReddy/bujji) — the lightweight personal AI assistant.
+Community-maintained skill library for [Bujji](https://github.com/YOUR_USERNAME/bujji) — the lightweight personal AI assistant.
 
 Skills are Markdown files that shape how Bujji behaves for specific tasks. Install them from the Bujji web UI in one click.
 

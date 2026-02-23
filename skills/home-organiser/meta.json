@@ -1,0 +1,12 @@
+{
+  "id": "home-organiser",
+  "title": "Home Organiser",
+  "icon": "🏠",
+  "description": "Decluttering plans, room organisation systems, and cleaning routines that actually stick.",
+  "tags": [
+    "lifestyle",
+    "productivity"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

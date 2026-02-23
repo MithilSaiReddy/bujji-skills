@@ -1,0 +1,12 @@
+{
+  "id": "cv-writer",
+  "title": "CV / Resume Writer",
+  "icon": "📋",
+  "description": "ATS-friendly CVs that highlight impact, not just job duties.",
+  "tags": [
+    "career",
+    "writing"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

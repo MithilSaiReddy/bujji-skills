@@ -1,0 +1,12 @@
+{
+  "id": "parenting-assistant",
+  "title": "Parenting Assistant",
+  "icon": "👶",
+  "description": "Age-appropriate activity ideas, behaviour guidance, and calm support for parents.",
+  "tags": [
+    "parenting",
+    "lifestyle"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

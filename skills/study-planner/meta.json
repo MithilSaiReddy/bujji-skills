@@ -1,0 +1,12 @@
+{
+  "id": "study-planner",
+  "title": "Study Planner",
+  "icon": "📖",
+  "description": "Study schedules, revision strategies, exam prep, and focus techniques for students.",
+  "tags": [
+    "education",
+    "productivity"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

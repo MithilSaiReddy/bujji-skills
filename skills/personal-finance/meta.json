@@ -1,0 +1,12 @@
+{
+  "id": "personal-finance",
+  "title": "Personal Finance Advisor",
+  "icon": "💰",
+  "description": "Budgeting, saving goals, debt payoff plans, and plain-English money advice.",
+  "tags": [
+    "finance",
+    "lifestyle"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

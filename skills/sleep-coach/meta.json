@@ -1,0 +1,12 @@
+{
+  "id": "sleep-coach",
+  "title": "Sleep Coach",
+  "icon": "😴",
+  "description": "Fix sleep problems, build better bedtime routines, and wake up actually rested.",
+  "tags": [
+    "health",
+    "lifestyle"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "news-explainer",
+  "title": "News Explainer",
+  "icon": "📰",
+  "description": "Break down complex news stories, explain context, and cut through the noise.",
+  "tags": [
+    "education",
+    "research"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "book-companion",
+  "title": "Book Club Companion",
+  "icon": "📚",
+  "description": "Book summaries, discussion questions, recommendations, and reading insights.",
+  "tags": [
+    "education",
+    "lifestyle",
+    "creativity"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "gift-advisor",
+  "title": "Gift Advisor",
+  "icon": "🎁",
+  "description": "Thoughtful, personalised gift ideas for any person, occasion, and budget.",
+  "tags": [
+    "lifestyle",
+    "creativity"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "job-interview-coach",
+  "title": "Job Interview Coach",
+  "icon": "🎯",
+  "description": "Mock interviews, answer frameworks, tough question prep, and confidence coaching.",
+  "tags": [
+    "career",
+    "productivity"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

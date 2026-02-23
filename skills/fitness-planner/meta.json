@@ -1,0 +1,12 @@
+{
+  "id": "fitness-planner",
+  "title": "Fitness Planner",
+  "icon": "💪",
+  "description": "Workout plans, exercise guidance, and progress strategies for any fitness level.",
+  "tags": [
+    "health",
+    "lifestyle"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

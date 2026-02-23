@@ -1,0 +1,12 @@
+{
+  "id": "language-partner",
+  "title": "Language Learning Partner",
+  "icon": "🗣️",
+  "description": "Conversational practice, corrections, vocabulary building, and grammar explained simply.",
+  "tags": [
+    "education",
+    "lifestyle"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

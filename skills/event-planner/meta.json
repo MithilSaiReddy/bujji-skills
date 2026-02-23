@@ -1,0 +1,12 @@
+{
+  "id": "event-planner",
+  "title": "Event Planner",
+  "icon": "🎉",
+  "description": "Plan birthdays, dinners, celebrations, and gatherings from concept to checklist.",
+  "tags": [
+    "lifestyle",
+    "productivity"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-02-23T14:30:10.901141Z",
-  "count": 15,
+  "updated_at": "2026-02-23T17:15:49.559475+00:00",
+  "count": 35,
   "skills": [
+    {
+      "id": "book-companion",
+      "title": "Book Club Companion",
+      "icon": "📚",
+      "description": "Book summaries, discussion questions, recommendations, and reading insights.",
+      "tags": [
+        "education",
+        "lifestyle",
+        "creativity"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/book-companion/SKILL.md"
+    },
     {
       "id": "brainstorm-coach",
       "title": "Brainstorm Coach",
@@ -40,6 +54,32 @@
       "author": "bujji-team",
       "version": "1.0.0",
       "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/coding-assistant/SKILL.md"
+    },
+    {
+      "id": "cover-letter-writer",
+      "title": "Cover Letter Writer",
+      "icon": "📄",
+      "description": "Tailored cover letters that get noticed — not the generic template everyone uses.",
+      "tags": [
+        "career",
+        "writing"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/cover-letter-writer/SKILL.md"
+    },
+    {
+      "id": "cv-writer",
+      "title": "CV / Resume Writer",
+      "icon": "📋",
+      "description": "ATS-friendly CVs that highlight impact, not just job duties.",
+      "tags": [
+        "career",
+        "writing"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/cv-writer/SKILL.md"
     },
     {
       "id": "data-analyst",
@@ -94,6 +134,45 @@
       "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/email-writer/SKILL.md"
     },
     {
+      "id": "event-planner",
+      "title": "Event Planner",
+      "icon": "🎉",
+      "description": "Plan birthdays, dinners, celebrations, and gatherings from concept to checklist.",
+      "tags": [
+        "lifestyle",
+        "productivity"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/event-planner/SKILL.md"
+    },
+    {
+      "id": "fitness-planner",
+      "title": "Fitness Planner",
+      "icon": "💪",
+      "description": "Workout plans, exercise guidance, and progress strategies for any fitness level.",
+      "tags": [
+        "health",
+        "lifestyle"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/fitness-planner/SKILL.md"
+    },
+    {
+      "id": "gift-advisor",
+      "title": "Gift Advisor",
+      "icon": "🎁",
+      "description": "Thoughtful, personalised gift ideas for any person, occasion, and budget.",
+      "tags": [
+        "lifestyle",
+        "creativity"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/gift-advisor/SKILL.md"
+    },
+    {
       "id": "git-helper",
       "title": "Git Helper",
       "icon": "🌿",
@@ -105,6 +184,59 @@
       "author": "bujji-team",
       "version": "1.0.0",
       "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/git-helper/SKILL.md"
+    },
+    {
+      "id": "habit-coach",
+      "title": "Habit Coach",
+      "icon": "🌱",
+      "description": "Build good habits and break bad ones using science-backed behaviour change techniques.",
+      "tags": [
+        "health",
+        "productivity",
+        "lifestyle"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/habit-coach/SKILL.md"
+    },
+    {
+      "id": "home-organiser",
+      "title": "Home Organiser",
+      "icon": "🏠",
+      "description": "Decluttering plans, room organisation systems, and cleaning routines that actually stick.",
+      "tags": [
+        "lifestyle",
+        "productivity"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/home-organiser/SKILL.md"
+    },
+    {
+      "id": "job-interview-coach",
+      "title": "Job Interview Coach",
+      "icon": "🎯",
+      "description": "Mock interviews, answer frameworks, tough question prep, and confidence coaching.",
+      "tags": [
+        "career",
+        "productivity"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/job-interview-coach/SKILL.md"
+    },
+    {
+      "id": "language-partner",
+      "title": "Language Learning Partner",
+      "icon": "🗣️",
+      "description": "Conversational practice, corrections, vocabulary building, and grammar explained simply.",
+      "tags": [
+        "education",
+        "lifestyle"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/language-partner/SKILL.md"
     },
     {
       "id": "learning-tutor",
@@ -120,6 +252,20 @@
       "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/learning-tutor/SKILL.md"
     },
     {
+      "id": "meal-planner",
+      "title": "Meal Planner",
+      "icon": "🍽️",
+      "description": "Weekly meal plans, shopping lists, and recipes based on preferences and budget.",
+      "tags": [
+        "food",
+        "lifestyle",
+        "health"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/meal-planner/SKILL.md"
+    },
+    {
       "id": "meeting-notes",
       "title": "Meeting Notes",
       "icon": "📝",
@@ -131,6 +277,72 @@
       "author": "bujji-team",
       "version": "1.0.0",
       "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/meeting-notes/SKILL.md"
+    },
+    {
+      "id": "mindfulness-coach",
+      "title": "Mindfulness & Wellness Coach",
+      "icon": "🧘",
+      "description": "Stress relief, breathing exercises, journaling prompts, and calm daily routines.",
+      "tags": [
+        "health",
+        "lifestyle"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/mindfulness-coach/SKILL.md"
+    },
+    {
+      "id": "negotiation-coach",
+      "title": "Negotiation Coach",
+      "icon": "🤝",
+      "description": "Salary negotiation, purchases, conflict resolution, and getting what you want respectfully.",
+      "tags": [
+        "career",
+        "lifestyle",
+        "productivity"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/negotiation-coach/SKILL.md"
+    },
+    {
+      "id": "news-explainer",
+      "title": "News Explainer",
+      "icon": "📰",
+      "description": "Break down complex news stories, explain context, and cut through the noise.",
+      "tags": [
+        "education",
+        "research"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/news-explainer/SKILL.md"
+    },
+    {
+      "id": "parenting-assistant",
+      "title": "Parenting Assistant",
+      "icon": "👶",
+      "description": "Age-appropriate activity ideas, behaviour guidance, and calm support for parents.",
+      "tags": [
+        "parenting",
+        "lifestyle"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/parenting-assistant/SKILL.md"
+    },
+    {
+      "id": "personal-finance",
+      "title": "Personal Finance Advisor",
+      "icon": "💰",
+      "description": "Budgeting, saving goals, debt payoff plans, and plain-English money advice.",
+      "tags": [
+        "finance",
+        "lifestyle"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/personal-finance/SKILL.md"
     },
     {
       "id": "product-manager",
@@ -172,6 +384,33 @@
       "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/security-auditor/SKILL.md"
     },
     {
+      "id": "sleep-coach",
+      "title": "Sleep Coach",
+      "icon": "😴",
+      "description": "Fix sleep problems, build better bedtime routines, and wake up actually rested.",
+      "tags": [
+        "health",
+        "lifestyle"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/sleep-coach/SKILL.md"
+    },
+    {
+      "id": "social-media-creator",
+      "title": "Social Media Creator",
+      "icon": "📱",
+      "description": "Captions, content ideas, hashtags, and posting strategies for any platform.",
+      "tags": [
+        "marketing",
+        "writing",
+        "creativity"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/social-media-creator/SKILL.md"
+    },
+    {
       "id": "sql-expert",
       "title": "SQL Expert",
       "icon": "🗄️",
@@ -183,6 +422,32 @@
       "author": "bujji-team",
       "version": "1.0.0",
       "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/sql-expert/SKILL.md"
+    },
+    {
+      "id": "study-planner",
+      "title": "Study Planner",
+      "icon": "📖",
+      "description": "Study schedules, revision strategies, exam prep, and focus techniques for students.",
+      "tags": [
+        "education",
+        "productivity"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/study-planner/SKILL.md"
+    },
+    {
+      "id": "travel-planner",
+      "title": "Travel Planner",
+      "icon": "✈️",
+      "description": "Itineraries, packing lists, local tips, and budget breakdowns for any trip.",
+      "tags": [
+        "travel",
+        "lifestyle"
+      ],
+      "author": "bujji-team",
+      "version": "1.0.0",
+      "skill_url": "https://raw.githubusercontent.com/MithilSaiReddy/bujji-skills/main/skills/travel-planner/SKILL.md"
     },
     {
       "id": "writing-editor",

@@ -1,0 +1,13 @@
+{
+  "id": "habit-coach",
+  "title": "Habit Coach",
+  "icon": "🌱",
+  "description": "Build good habits and break bad ones using science-backed behaviour change techniques.",
+  "tags": [
+    "health",
+    "productivity",
+    "lifestyle"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

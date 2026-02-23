@@ -1,0 +1,12 @@
+{
+  "id": "travel-planner",
+  "title": "Travel Planner",
+  "icon": "✈️",
+  "description": "Itineraries, packing lists, local tips, and budget breakdowns for any trip.",
+  "tags": [
+    "travel",
+    "lifestyle"
+  ],
+  "author": "bujji-team",
+  "version": "1.0.0"
+}

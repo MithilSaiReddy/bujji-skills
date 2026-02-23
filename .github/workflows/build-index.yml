@@ -60,7 +60,7 @@ jobs:
                   "tags":        meta["tags"],
                   "author":      meta["author"],
                   "version":     meta["version"],
-                  "skill_url":   f"https://raw.githubusercontent.com/${{{{ github.repository }}}}/main/skills/{skill_dir.name}/SKILL.md",
+                  "skill_url":   f"https://raw.githubusercontent.com/${{ github.repository }}/main/skills/{skill_dir.name}/SKILL.md",
               })
               print(f"  ✅ {skill_dir.name}")
 
